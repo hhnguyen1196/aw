@@ -1,4 +1,4 @@
-package com.validationdemo.exception;
+package com.demo.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

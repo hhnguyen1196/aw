@@ -1,4 +1,4 @@
-package com.validationdemo.utils;
+package com.demo.utils;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validator;

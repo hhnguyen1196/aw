@@ -1,6 +1,6 @@
-package com.validationdemo.exception;
+package com.demo.exception;
 
-import com.validationdemo.utils.KeyResponseProperties;
+import com.demo.utils.KeyResponseProperties;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.validationdemo.annotation;
+package com.demo.annotation;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;

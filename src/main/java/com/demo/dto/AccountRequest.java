@@ -1,6 +1,6 @@
-package com.validationdemo.dto;
+package com.demo.dto;
 
-import com.validationdemo.annotation.Username;
+import com.demo.annotation.Username;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 

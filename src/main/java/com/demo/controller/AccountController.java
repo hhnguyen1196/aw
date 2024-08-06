@@ -1,7 +1,7 @@
-package com.validationdemo.controller;
+package com.demo.controller;
 
-import com.validationdemo.dto.AccountRequest;
-import com.validationdemo.service.AccountService;
+import com.demo.dto.AccountRequest;
+import com.demo.service.AccountService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;

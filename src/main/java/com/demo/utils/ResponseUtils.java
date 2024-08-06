@@ -1,4 +1,4 @@
-package com.validationdemo.utils;
+package com.demo.utils;
 
 import lombok.Data;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.validationdemo.utils;
+package com.demo.utils;
 
 public class KeyResponseProperties {
 

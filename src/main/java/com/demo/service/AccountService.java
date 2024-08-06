@@ -1,8 +1,8 @@
-package com.validationdemo.service;
+package com.demo.service;
 
-import com.validationdemo.dto.AccountRequest;
-import com.validationdemo.exception.ValidationException;
-import com.validationdemo.utils.Validate;
+import com.demo.dto.AccountRequest;
+import com.demo.exception.ValidationException;
+import com.demo.utils.Validate;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
