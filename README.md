@@ -1,5 +1,8 @@
-# Hello
-- git branch -m master main
-- git fetch origin
-- git branch -u origin/main main
-- git remote set-head origin -a
+## Add your files
+
+```
+git clone (https://github.com/hhnguyen1196/aw.git)
+git remote add origin (https://github.com/hhnguyen1196/aw.git)
+git branch develop
+git push origin develop
+```
