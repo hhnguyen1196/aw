@@ -1,10 +1,12 @@
-package com.demo.dto;
+package com.aw.request;
 
-import com.demo.annotation.Username;
+import com.aw.annotation.Username;
 import jakarta.validation.constraints.NotNull;
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class AccountRequest {
 
     @Username
@@ -16,4 +18,7 @@ public class AccountRequest {
     private String email;
 
     private String phone;
+
+    private String project;
+
 }

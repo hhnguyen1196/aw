@@ -1,0 +1,4 @@
+server:
+  port: 8080
+  pr:
+    variables: aw-2024

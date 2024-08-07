@@ -1,10 +1,8 @@
-package com.demo.utils;
+package com.aw.utils;
 
 public class KeyResponseProperties {
 
     private KeyResponseProperties() {}
 
     public static String ERROR = "error";
-
-    public static String BODY = "body";
 }

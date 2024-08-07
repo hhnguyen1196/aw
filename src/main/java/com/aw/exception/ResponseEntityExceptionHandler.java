@@ -1,6 +1,6 @@
-package com.demo.exception;
+package com.aw.exception;
 
-import com.demo.utils.KeyResponseProperties;
+import com.aw.utils.KeyResponseProperties;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
