@@ -11,7 +11,7 @@ import java.util.Collections;
 
 @RestControllerAdvice
 @RequiredArgsConstructor
-public class ResponseEntityExceptionHandler {
+public class ResponseExceptionHandler {
 
     @ExceptionHandler(value = {ValidationException.class})
     public ResponseEntity<?> handleValidationException(ValidationException e) {

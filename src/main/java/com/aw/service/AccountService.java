@@ -5,7 +5,6 @@ import com.aw.exception.ValidationException;
 import com.aw.properties.AWProperties;
 import com.aw.response.AccountResponse;
 import com.aw.utils.MessageSourceProperties;
-import com.aw.utils.ResponseUtils;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validator;
 import lombok.RequiredArgsConstructor;
@@ -49,7 +48,7 @@ public class AccountService {
                 .username("032C051296")
                 .project(properties.getVariables());
 
-        return ResponseUtils.status(HttpStatus.CREATED, responseBuilder.build());
+        return ResponseEntity.status(HttpStatus.CREATED).body(responseBuilder.build());
     }
 
     private void validate(AccountRequest request) {
