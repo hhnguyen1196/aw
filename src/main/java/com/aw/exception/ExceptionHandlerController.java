@@ -15,7 +15,7 @@ import java.util.Objects;
 @Slf4j
 @RestControllerAdvice
 @RequiredArgsConstructor
-public class HandlerExceptionController {
+public class ExceptionHandlerController {
 
     @ExceptionHandler(value = {ValidationException.class})
     public ResponseEntity<?> handleValidationException(ValidationException e) {
